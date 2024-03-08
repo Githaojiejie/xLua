@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\SVN_Project\x1_cn_branch_unity2022\Dev\tools\xlua-2.1.16\build\luac\build64\CMakeFiles\983c03d3126929335e30b75c934b4846\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AB65C67B-D72A-3B55-AC03-1B3FE5567B13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

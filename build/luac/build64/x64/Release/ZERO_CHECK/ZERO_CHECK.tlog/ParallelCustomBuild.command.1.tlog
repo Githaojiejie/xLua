@@ -1,0 +1,10 @@
+^D:\SVN_PROJECT\X1_CN_BRANCH_UNITY2022\DEV\TOOLS\XLUA-2.1.16\BUILD\LUAC\BUILD64\CMAKEFILES\983C03D3126929335E30B75C934B4846\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SVN_Project/x1_cn_branch_unity2022/Dev/tools/xlua-2.1.16/build/luac -BD:/SVN_Project/x1_cn_branch_unity2022/Dev/tools/xlua-2.1.16/build/luac/build64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/SVN_Project/x1_cn_branch_unity2022/Dev/tools/xlua-2.1.16/build/luac/build64/luac.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

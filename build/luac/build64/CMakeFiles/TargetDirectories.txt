@@ -1,0 +1,4 @@
+D:/SVN_Project/x1_cn_branch_unity2022/Dev/tools/xlua-2.1.16/build/luac/build64/CMakeFiles/luac.dir
+D:/SVN_Project/x1_cn_branch_unity2022/Dev/tools/xlua-2.1.16/build/luac/build64/CMakeFiles/lua.dir
+D:/SVN_Project/x1_cn_branch_unity2022/Dev/tools/xlua-2.1.16/build/luac/build64/CMakeFiles/ALL_BUILD.dir
+D:/SVN_Project/x1_cn_branch_unity2022/Dev/tools/xlua-2.1.16/build/luac/build64/CMakeFiles/ZERO_CHECK.dir
