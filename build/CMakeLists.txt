@@ -5,6 +5,10 @@
 # Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
  #begin lua-rapidjson
+ include_directories(lua-rapidjson/include) 
+ set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+ 
  set (RAPIDJSON_SRC lua-rapidjson/source/rapidjson.cpp)
  set_property(
      SOURCE ${RAPIDJSON_SRC}
@@ -35,7 +39,7 @@ endif ()
 option ( UINT_ESPECIALLY "using custom ulong" OFF )
 option ( USING_LUAJIT "using luajit" OFF )
 option ( GC64 "using gc64" OFF )
-option ( LUAC_COMPATIBLE_FORMAT "compatible format" OFF )
+option ( LUAC_COMPATIBLE_FORMAT "compatible format" ON )
 
 find_path(XLUA_PROJECT_DIR NAMES SConstruct
     PATHS 
